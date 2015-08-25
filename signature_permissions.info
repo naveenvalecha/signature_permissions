@@ -1,0 +1,3 @@
+name = User Signature Permissions
+description = provides the permission to restrict the users signature.
+core = 7.x
