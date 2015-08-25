@@ -1,3 +1,4 @@
 name = User Signature Permissions
-description = provides the permission to restrict the users signature.
+description = provides additional permission that allows user to update signature in user profile.
 core = 7.x
+files[] = signature_permissions.module
