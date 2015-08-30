@@ -8,7 +8,7 @@
 /**
  * Test case for user signature permissions.
  */
-class  UserSignaturePermissionsTestCase extends DrupalWebTestCase {
+class UserSignaturePermissionsTestCase extends DrupalWebTestCase {
 
   public static function getInfo() {
     return array(

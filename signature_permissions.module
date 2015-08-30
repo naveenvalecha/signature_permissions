@@ -55,7 +55,6 @@ function signature_permissions_form_user_profile_form_alter(&$form, &$form_state
   // User Account should not be 1 because all permissions are automatically
   // enabled for this account.
   if ($user->uid > 1 && variable_get('user_signatures', 0) && !user_access('Allow Signatures')) {
-    error_log('inside form id alter if');
     $form['signature_settings']['#access'] = FALSE;
   }
 }
