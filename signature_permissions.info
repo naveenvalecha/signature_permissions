@@ -2,3 +2,4 @@ name = User Signature Permissions
 description = provides additional permission that allows user to update signature in user profile.
 core = 7.x
 files[] = signature_permissions.module
+files[] = signature_permissions.test
