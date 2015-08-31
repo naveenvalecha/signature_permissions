@@ -10,7 +10,7 @@ CONTENTS OF THIS FILE
 
 INTRODUCTION
 ------------
-The Signature Permissions module provides the 'Allow Signatures' that allows
+The Signature Permissions module provides the 'Use signatures' that allows
 users to update the signatures in user profile.
 
 REQUIREMENTS
@@ -31,7 +31,7 @@ INSTALLATION
 
 CONFIGURATION
 -------------
- * Configure the permissions provided by Signatures Permissions Module in
+ * Configure the permissions provided by User Signature Permissions Module in
    Administration » People » Permissions:
 
 MAINTAINERS

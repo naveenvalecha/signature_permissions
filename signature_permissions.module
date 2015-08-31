@@ -40,8 +40,8 @@ function signature_permissions_help($path, $arg) {
  */
 function signature_permissions_permission() {
   return array(
-    'Allow Signatures' => array(
-      'title' => t('Allow Signatures'),
+    'Use signature' => array(
+      'title' => t('Use signature'),
       'description' => t('Allows users to update the signatures in profile.'),
     ),
   );
@@ -54,7 +54,7 @@ function signature_permissions_form_user_profile_form_alter(&$form, &$form_state
   global $user;
   // User Account should not be 1 because all permissions are automatically
   // enabled for this account.
-  if ($user->uid > 1 && variable_get('user_signatures', 0) && !user_access('Allow Signatures')) {
+  if ($user->uid > 1 && variable_get('user_signatures', 0) && !user_access('Use signature')) {
     $form['signature_settings']['#access'] = FALSE;
   }
 }

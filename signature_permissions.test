@@ -38,7 +38,7 @@ class UserSignaturePermissionsTestCase extends DrupalWebTestCase {
     $this->assertNoText(t('Signature'));
 
     // Create a privileged user and log in.
-    $privilegedUser = $this->drupalCreateUser(array('Allow Signatures'));
+    $privilegedUser = $this->drupalCreateUser(array('Use signature'));
     $this->drupalLogin($privilegedUser);
     // Verify that user signature field is displayed on profile edit form.
     $this->drupalGet('user/' . $privilegedUser->uid . '/edit');
