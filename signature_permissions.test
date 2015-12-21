@@ -14,7 +14,7 @@ class UserSignaturePermissionsTestCase extends DrupalWebTestCase {
     return array(
       'name' => 'User signature permissions',
       'description' => 'Test user signature permissions.',
-      'group' => 'User',
+      'group' => 'User Signature Permissions',
     );
   }
 
